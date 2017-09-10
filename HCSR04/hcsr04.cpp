@@ -47,3 +47,11 @@ void HCSR04::ToSerial()
         Serial.print("}");
     Serial.println("}");
 }
+
+String HCSR04::ToString()
+{
+    String distanceString = "{\"Protocol\":\"Bifrost\",\"Device\":\"HCSR04\",\"Properties\":{\"Distance\":<<DISTANCE>>}}";
+    distanceString.replace("<<DISTANCE>>", String(distanceInMillimeters()));
+
+    return distanceString;
+}

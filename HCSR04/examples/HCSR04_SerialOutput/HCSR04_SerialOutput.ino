@@ -10,7 +10,7 @@ void setup(){
 }
 
 void loop() {
-    hcsr04.ToSerial();
+    Serial.println(hcsr04.ToString());
 
     delay(250);
 }

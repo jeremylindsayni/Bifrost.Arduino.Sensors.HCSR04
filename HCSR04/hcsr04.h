@@ -8,8 +8,9 @@ class HCSR04
   public:
     HCSR04(int trigger, int echo);
     unsigned int echoInMicroseconds();
-    unsigned int distanceInCentimetres();
+    unsigned int distanceInMillimeters();
     void ToSerial();
+    String ToString();
   private:
     int _trigger;
     int _echo;
