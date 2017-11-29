@@ -3,7 +3,7 @@ A library and example for the HCSR04 distance sensor.
 
 ## Example
 
-'''c++
+```c++
 #include <hcsr04.h>
 
 #define TRIG_PIN 12
@@ -25,4 +25,4 @@ void loop() {
 
     delay(250);
 }
-'''
+```
