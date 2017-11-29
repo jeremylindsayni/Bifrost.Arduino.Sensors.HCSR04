@@ -1,0 +1,17 @@
+#################################################
+# Syntax Coloring Map For Bifrost HC-SR04 Library
+#################################################
+
+#################################################
+# Datatypes (KEYWORD1)
+#################################################
+HCSR04	KEYWORD1
+
+#################################################
+# Methods and Functions (KEYWORD2)
+#################################################
+echo	KEYWORD2
+echoInMicroseconds	KEYWORD2
+distanceInMillimeters	KEYWORD2
+ToString	KEYWORD2
+ToSerial	KEYWORD2
