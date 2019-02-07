@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "HCSR04.h"
+#include "hcsr04.h"
 
 HCSR04::HCSR04(int trigger, int echo)
 {
