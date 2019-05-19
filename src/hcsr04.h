@@ -7,7 +7,7 @@ class HCSR04
 {
   public:
     HCSR04(int trigger, int echo);
-	HCSR04(int trigger, int echo, int minRange, int maxRange);
+    HCSR04(int trigger, int echo, int minRange, int maxRange);
     unsigned int echoInMicroseconds();
     int distanceInMillimeters();
     void ToSerial();
@@ -15,8 +15,8 @@ class HCSR04
   private:
     int _trigger;
     int _echo;
-	int _minRange = -1;
-	int _maxRange = -1;
+    int _minRange = -1;
+    int _maxRange = -1;
 };
 
 #endif
